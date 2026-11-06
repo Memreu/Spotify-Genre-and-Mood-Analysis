@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://nbviewer.org/github/Memreu/spotify-analizi/blob/main/spotify_analizi.ipynb"><img src="https://img.shields.io/badge/📓_Notebook'u_görüntüle-nbviewer-F37626?logo=jupyter&logoColor=white" alt="nbviewer"></a>
-  <a href="https://colab.research.google.com/github/Memreu/spotify-analizi/blob/main/spotify_analizi.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
+  <a href="https://nbviewer.org/github/Memreu/Spotify-Genre-and-Mood-Analysis/blob/main/spotify_analizi.ipynb"><img src="https://img.shields.io/badge/📓_Notebook'u_görüntüle-nbviewer-F37626?logo=jupyter&logoColor=white" alt="nbviewer"></a>
+  <a href="https://colab.research.google.com/github/Memreu/Spotify-Genre-and-Mood-Analysis/blob/main/spotify_analizi.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
 </p>
 
 ~32 bin Spotify şarkısının ses özellikleriyle uçtan uca bir veri bilimi projesi: **keşifçi analiz**, **istatistiksel testler**, **boyut indirgeme**, **açıklanabilir makine öğrenmesi** ve **ölçülebilir bir öneri sistemi**.
@@ -141,8 +141,8 @@ Notebook'ta ayrıca ruh haline göre (mutlu, sakin, hüzünlü, gergin) otomatik
 ## Kurulum ve çalıştırma
 
 ```bash
-git clone https://github.com/Memreu/spotify-analizi.git
-cd spotify-analizi
+git clone https://github.com/Memreu/Spotify-Genre-and-Mood-Analysis.git
+cd Spotify-Genre-and-Mood-Analysis
 pip install -r requirements.txt
 jupyter lab spotify_analizi.ipynb
 ```
@@ -150,8 +150,8 @@ jupyter lab spotify_analizi.ipynb
 **Run ▸ Run All Cells** ile çalıştır. Veri ilk çalıştırmada otomatik indirilir; tüm notebook ~12 dakika sürer.
 
 **Kurulum yapmadan incelemek için:**
-- 📓 [nbviewer'da görüntüle](https://nbviewer.org/github/Memreu/spotify-analizi/blob/main/spotify_analizi.ipynb): Tüm çıktı ve grafiklerle, hiçbir şey kurmadan okunabilir.
-- ☁️ [Google Colab'da çalıştır](https://colab.research.google.com/github/Memreu/spotify-analizi/blob/main/spotify_analizi.ipynb): İlk hücreden önce şu komutu çalıştırman yeterli:
+- 📓 [nbviewer'da görüntüle](https://nbviewer.org/github/Memreu/Spotify-Genre-and-Mood-Analysis/blob/main/spotify_analizi.ipynb): Tüm çıktı ve grafiklerle, hiçbir şey kurmadan okunabilir.
+- ☁️ [Google Colab'da çalıştır](https://colab.research.google.com/github/Memreu/Spotify-Genre-and-Mood-Analysis/blob/main/spotify_analizi.ipynb): İlk hücreden önce şu komutu çalıştırman yeterli:
   ```python
   !pip install -q optuna shap
   ```
