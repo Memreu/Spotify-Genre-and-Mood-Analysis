@@ -47,13 +47,13 @@ Son olarak standartlaştırılmış ses özellikleri (ve isteğe bağlı olarak 
 ## Çalıştırmak için
 
 ```bash
-git clone https://github.com/Memreu/spotify-genre-mood-analysis.git
-cd spotify-genre-mood-analysis
+git clone https://github.com/Memreu/Spotify-Genre-and-Mood-Analysis.git
+cd Spotify-Genre-and-Mood-Analysis
 pip install -r requirements.txt
 jupyter lab spotify_analizi.ipynb
 ```
 
-Veri ilk çalıştırmada TidyTuesday deposundan otomatik indiriliyor, notebook'un tamamı 12 dakika kadar sürüyor. Kurmadan bakmak isterseniz [nbviewer](https://nbviewer.org/github/Memreu/spotify-genre-mood-analysis/blob/main/spotify_analizi.ipynb) üzerinden bütün çıktılarla okunabiliyor; Colab'da çalıştırmak için önce `!pip install -q optuna shap` yeterli.
+Veri ilk çalıştırmada TidyTuesday deposundan otomatik indiriliyor, notebook'un tamamı 12 dakika kadar sürüyor. Kurmadan bakmak isterseniz [nbviewer](https://nbviewer.org/github/Memreu/Spotify-Genre-and-Mood-Analysis/blob/main/spotify_analizi.ipynb) üzerinden bütün çıktılarla okunabiliyor; Colab'da çalıştırmak için önce `!pip install -q optuna shap` yeterli.
 
 ## Sınırlılıklar
 
