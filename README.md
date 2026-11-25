@@ -53,10 +53,10 @@ pip install -r requirements.txt
 jupyter lab spotify_analizi.ipynb
 ```
 
-Veri ilk çalıştırmada GitHub'dan otomatik indiriliyor, notebook'un tamamı 12 dakika kadar sürüyor. Kurmadan bakmak isterseniz [nbviewer](https://nbviewer.org/github/Memreu/spotify-genre-mood-analysis/blob/main/spotify_analizi.ipynb) üzerinden bütün çıktılarla okunabiliyor; Colab'da çalıştırmak için önce `!pip install -q optuna shap` yeterli.
+Veri ilk çalıştırmada TidyTuesday deposundan otomatik indiriliyor, notebook'un tamamı 12 dakika kadar sürüyor. Kurmadan bakmak isterseniz [nbviewer](https://nbviewer.org/github/Memreu/spotify-genre-mood-analysis/blob/main/spotify_analizi.ipynb) üzerinden bütün çıktılarla okunabiliyor; Colab'da çalıştırmak için önce `!pip install -q optuna shap` yeterli.
 
 ## Sınırlılıklar
 
-Tür etiketleri şarkının kendisinden değil, eklendiği çalma listesinden geliyor; bu etiket gürültüsü doğruluğun üst sınırını belirliyor. Ses özellikleri de Spotify'ın özet metrikleri, ham ses kullanmadım. Sırada şarkı sözlerini eklemek ve 24 alt türü önce ana tür, sonra alt tür şeklinde hiyerarşik bir modelle tahmin etmeyi denemek var.
+Tür etiketleri şarkının kendisinden değil, eklendiği çalma listesinden geliyor; bu etiket gürültüsü doğruluğun üst sınırını belirliyor. Ses özellikleri de Spotify'ın özet metrikleri, ham ses kullanmadım. Bundan sonra şarkı sözlerini eklemeyi ve 24 alt türü önce ana tür, sonra alt tür şeklinde hiyerarşik bir modelle tahmin etmeyi denemek istiyorum.
 
 MIT lisansı ile paylaşılmıştır.
